@@ -3,9 +3,9 @@
 select current_role();
 select current_user();
 
-create role ice_cream_reader comment = 'Abble to read ice_cream database';
-create role ice_cream_writer comment = 'Abble to CRUD operations on ice_cream database';
-create role ice_cream_analyst comment = 'Abble to create views on ice_cream database';
+create role ice_cream_reader comment = 'Able to read ice_cream database';
+create role ice_cream_writer comment = 'Able to CRUD operations on ice_cream database';
+create role ice_cream_analyst comment = 'Able to create views on ice_cream database';
 
 -- 建和管理 role 用 useradmin; securityadmin 是管理授权的 grants，要换到securityadmin。
 use role securityadmin;

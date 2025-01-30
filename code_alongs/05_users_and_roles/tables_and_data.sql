@@ -75,8 +75,10 @@ INSERT INTO customers (customer_name, email) VALUES
 
 
 
+select current_role();
 
-
+use role sysadmin;
+grant usage on warehouse dev_wh to role ice_cream_writer;
 
 
 
