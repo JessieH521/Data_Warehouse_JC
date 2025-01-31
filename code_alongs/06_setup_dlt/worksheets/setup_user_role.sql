@@ -47,6 +47,7 @@ GRANT USAGE ON DATABASE movies TO ROLE movies_reader;
 GRANT USAGE ON SCHEMA movies.staging TO ROLE movies_reader;
 
 GRANT SELECT ON ALL TABLES IN SCHEMA movies.staging TO ROLE movies_reader;
+GRANT SELECT ON future TABLES IN SCHEMA movies.staging TO ROLE movies_reader;
 GRANT SELECT ON FUTURE TABLES IN DATABASE movies TO ROLE movies_reader;
 
 GRANT USAGE ON WAREHOUSE dev_wh TO ROLE movies_reader;
