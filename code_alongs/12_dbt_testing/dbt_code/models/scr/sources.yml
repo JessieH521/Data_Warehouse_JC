@@ -1,0 +1,22 @@
+sources:
+    - name: job_ads
+      schema: staging
+      tables:
+        - name: stg_data_ads
+          identifier: data_field_job_ads         # 如果表名更换，直接在这里改就行
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
