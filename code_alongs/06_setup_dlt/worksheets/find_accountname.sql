@@ -24,3 +24,5 @@ show accounts;       -- 列出当前 Snowflake 组织下的所有 帐户
 
 
 
+
+

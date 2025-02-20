@@ -75,6 +75,3 @@ CREATE TABLE transactions (
 
 
 
-
-
-

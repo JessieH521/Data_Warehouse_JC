@@ -60,5 +60,3 @@ use role ice_cream_writer;
 
 
 
-
-

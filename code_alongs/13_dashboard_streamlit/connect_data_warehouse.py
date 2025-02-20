@@ -1,10 +1,10 @@
-# connect to the warehouse
+# connect to the warehouse, mart_job_listings 
 import os
 from dotenv import load_dotenv
 from snowflake.connector import connect
 import pandas as pd
 
-# connect to the mark layer
+# connect to the mark layer ,读取表中数据 from snowflake
 def query_job_listings(query = 'select * from mart_job_listings'):
     load_dotenv()
 
@@ -21,8 +21,6 @@ def query_job_listings(query = 'select * from mart_job_listings'):
         # Execute the query
         df = pd.read_sql(query, conn)
         return df
-
-print(query_job_listings())
 
 
 

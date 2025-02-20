@@ -40,7 +40,6 @@ Table dim_employer {
 }
 
 
-
 // junk dimension for cols with flags 
 Table dim_auxilliary_attributes {
   auxilliary_attributes_id INTEGER [primary key]
