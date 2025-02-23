@@ -5,6 +5,7 @@ from snowflake.connector import connect
 import pandas as pd
 
 # connect to the mark layer ,读取表中数据 from snowflake
+
 def query_job_listings(query = 'select * from mart_job_listings'):
     load_dotenv()
 
